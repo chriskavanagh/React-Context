@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { UserContext } from "./userContext";
 
 class A extends Component {
+  // creates context, is available in this.context
   static contextType = UserContext;
   render() {
     return (
