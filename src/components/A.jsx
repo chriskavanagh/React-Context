@@ -8,7 +8,7 @@ class A extends Component {
     return (
       <div>
         <h1>I am component A</h1>
-        <h2>My Name Is {this.context}</h2>
+        <h2 style={{ color: "tomato" }}>My Name Is {this.context}</h2>
       </div>
     );
   }

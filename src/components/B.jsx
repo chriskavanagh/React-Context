@@ -1,10 +1,11 @@
 import React, { Component } from "react";
 
-export class B extends Component {
+class B extends Component {
   render() {
+    const { name } = this.props;
     return (
       <div>
-        <h1>I am component B</h1>
+        <h1 style={{ color: "tomato" }}>I am component B, My name is {name}</h1>
       </div>
     );
   }

@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import B from "./B";
 import { UserConsumer } from "./userContext";
 
 class F extends Component {
@@ -6,7 +7,7 @@ class F extends Component {
     return (
       <UserConsumer>
         {user => {
-          return <div>Hello {user}</div>;
+          return <B name={user} />;
         }}
       </UserConsumer>
     );
