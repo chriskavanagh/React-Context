@@ -3,6 +3,7 @@ import C from "./components/C";
 import A from "./components/A";
 import { UserProvider } from "./components/userContext";
 import "./App.css";
+import HelloWorld from "./components/HelloWorld";
 
 class App extends Component {
   render() {
@@ -12,6 +13,7 @@ class App extends Component {
           <C />
         </UserProvider>
         <A />
+        <HelloWorld />
       </div>
     );
   }
